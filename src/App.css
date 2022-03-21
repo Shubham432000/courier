@@ -1,0 +1,450 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ddd;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background: url("./components/boy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
+ 
+}
+.banner_content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+.banner_text{
+  width: 500px;
+}
+
+.banner_text h3{
+  font-size: 50px;
+}
+
+.banner_text h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.banner_text p{
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.navbar_text{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 40%;
+}
+
+.logo img{
+  width: 100px;
+  height: auto;
+  opacity: 1;
+}
+.navbar_ul{
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.navbar_ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.body3{
+  text-align: center;
+ 
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Label1{
+  color: white;
+  font-weight: 500;
+}
+.Label2{
+  width: auto;
+
+}
+.about{
+  padding: 80px;
+}
+
+.p-25{
+  padding: 45px;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6{
+  width: 50%;
+}
+
+.col-3{
+  width: 25%;
+}
+
+.about h3{
+  color: rgba(37, 37, 37, 0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.about h1{
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.about p{
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 300;
+}
+.about_img{
+  width: 100%;
+  overflow: hidden;
+}
+.about_img img{
+  width: 100%;
+}
+
+.shop{
+  width: 100%;
+  background: url('./components/boy4.jpeg');
+  height: 500px;
+  background-attachment: fixed;
+}
+.shop_text{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.shop_text h1{
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.shop_text h2{
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.font {
+  margin: 50px;
+  padding: 50px;
+ 
+  background-color: white;
+  box-shadow: 5px 5px 20px 0px #000;
+ 
+
+}
+.font2 {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  margin-left: 100px;
+}
+.font4 {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  margin-left: 100px;
+}
+.font6 {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  margin-left: 100px;
+}
+
+.font3 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  margin-left: 100px;
+}
+.font5 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  margin-left: 100px;
+}
+.font7 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  margin-left: 100px;
+}
+.clients{
+  width: 100%;
+  padding: 100px 0;
+  background:url('./components/boy4.jpeg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+
+.client{
+  text-align: center;
+}
+
+.client h1{
+  font-style: 45px;
+}
+
+.client p{
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.footer1{
+ display: flex;
+ justify-content: center;
+ padding: 50px;
+}
+.footer2{
+  padding: 50px;
+  background-color: #263238;
+  box-shadow: 5px 5px 20px 0px #000;
+  color: #fff;
+  
+}
+.footer3{
+  color: #000;
+  padding: 50px;
+  background-color:  #e63946;;
+  box-shadow: 5px 5px 20px 0px #000;
+}
+.footer4{
+  color: #fff;
+  padding: 50px;
+  background-color: #263238;
+  box-shadow: 5px 5px 20px 0px #000;
+}
+.footer2 h1{
+  
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+
+}
+.footer3 h1{
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.5px;
+
+}
+.footer4 h1{
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+
+}
+.footer3 p{
+   font-size: 15px;
+   font-weight: 500;
+   font-style: normal;
+   letter-spacing: 0.5px;
+}
+.footer2 p{
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+.footer4 p{
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+.media1{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #263238;
+ }
+ .media2{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+ 
+ }
+ .media3{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+ 
+ }
+ .media p{
+   color: #ddd;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #263238;
+  padding-bottom: 30px;
+ }
+
+ .banner .label3{
+  width: 40%;
+  height: 40px;
+  border-radius: 10px;
+}
+.banner .label4{
+  width: 10%;
+  height: 25px;
+}
+.label3{
+  padding: 1rem;
+}
+
+
+@media(max-width:600px){
+  .navbar_text{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .container{
+    width: 100%;
+    padding: 0 30px;
+  }
+  .banner_text{
+    width: auto;
+  }
+  
+  .banner_text h3{
+    font-size: 25px !important;
+  }
+  
+  .banner_text h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 800;
+    margin-top: 20px;
+  }
+  
+  .banner_text p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .navbar_ul{
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar_ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .col-3,
+  .col-6{
+    width: 100%;
+  }
+  .client{
+    margin: 20px 0;
+  }
+  .about h1{
+    font-size: 25px;
+  }
+  .shop h1{
+    font-size: 25px;
+  }
+  .shop h2{
+    font-size: 25px;
+  }
+ 
+}
